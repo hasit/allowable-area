@@ -1,0 +1,29 @@
+{
+  "name": "allowable-area",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Hasit Mistry",
+    "email": "hasitnm@gmail.com",
+    "url": "https://github.com/hasit"
+  },
+  "dependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^5.0.0",
+    "lodash": "^4.17.5",
+    "prettier": "^1.8.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.1.1"
+  }
+}

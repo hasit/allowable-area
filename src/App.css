@@ -1,0 +1,11 @@
+@media print {
+  .noprint {
+    display: none;
+  }
+}
+
+div.tables .ui.table tr.negative,
+div.tables .ui.table td.negative {
+  color: rgba(0, 0, 0, 0.20) !important;
+  background-color: rgba(232, 232, 232, 0.70) !important;
+}
