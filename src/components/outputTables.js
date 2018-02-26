@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {find, includes, map} from 'lodash';
+import {Segment} from 'semantic-ui-react';
 
 import {
   heightAboveGradePlane,
@@ -14,6 +15,9 @@ import {
   CustomTable3,
   CustomTable4,
 } from './customTables';
+
+const tableFootnote =
+  'UL = Unlinted; NP = Not Permitted; Baseline Allowable = Buildings not equipped with an automatic sprinkler system; With Sprinklers = Buildings equipped throughout with an automatic sprinkler system installed in accordance with Section 903.3.1.1; S13R = Buildings equipped throughout with an automatic sprinkler system installed in accordance with Section 903.3.1.2; S13D = Buildings equipped throughout with an automatic sprinkler system installed in accordance with Section 903.3.1.3';
 
 export default class OutputTables extends Component {
   renderCustomTables = (pr, fi) => {
@@ -115,6 +119,7 @@ export default class OutputTables extends Component {
     return (
       <div style={{marginTop: '1em'}} className="tables">
         {tables}
+        {tables.length > 0 ? <Segment content={tableFootnote} /> : ''}
       </div>
     );
   }
