@@ -1,3 +1,38 @@
+export const footnotes = [
+  {
+    letter: 'a',
+    text: 'See Chapters 4 and 5 for specific exceptions to the allowable height',
+  },
+  {
+    letter: 'b',
+    text: 'See Section 903.2 for the minimum thresholds for protection by an automatic sprinker system installed in accordance with Section 903.3.1.3',
+  },
+  {
+    letter: 'c',
+    text: 'New Group H occupancies are required to be protected by an automatic sprinker system in accordance with Section 903.2.5',
+  },
+  {
+    letter: 'd',
+    text: 'The Baseline Allowable value is only for use in evaluation of existing building height in accordance with the International Existing Building Code',
+  },
+  {
+    letter: 'e',
+    text: 'New Group I-1 and I-3 occupancies are required to be protected by an automatic sprinkler system in accordance with Section 903.2.6. For new Group I-1 occupancies Condition 1, see Exception 1 of Section 903.2.6',
+  },
+  {
+    letter: 'f',
+    text: 'New and existing Group I-2 occupancies are reuiqred to be protected by an automatic sprinkler system in accordance with Section 903.2.6 and Section 1103.5 of the International Fire Code',
+  },
+  {
+    letter: 'g',
+    text: 'For Group I-4 occupancies, see Exceptions 2 and 3 of Section 903.2.6',
+  },
+  {
+    letter: 'h',
+    text: 'New Group R occupancies are required to be protected by an automatic sprinkler system in accordance with Section 903.2.8',
+  },
+];
+
 export const sprinklersOptions = [
   {key: 'no', text: 'No', value: 'no'},
   {key: 'yes', text: 'Yes', value: 'yes'},
